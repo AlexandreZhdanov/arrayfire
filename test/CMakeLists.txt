@@ -16,7 +16,7 @@ if(AF_CTEST_SEPARATED)
 endif()
 
 if(AF_TEST_WITH_MTX_FILES)
-  include(download_sparse_datasets)
+#  [[include(download_sparse_datasets)]]
 endif()
 
 if(AF_WITH_EXTERNAL_PACKAGES_ONLY)
